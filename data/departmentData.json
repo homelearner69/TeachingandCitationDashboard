@@ -1,0 +1,522 @@
+[
+    {
+        "Abbreviation": "DCCT",
+        "Department": "Computer and Communication Technology",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FICT"
+    },
+    {
+        "Abbreviation": "DIS",
+        "Department": "Information System",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FICT"
+    },
+    {
+        "Abbreviation": "DCS",
+        "Department": "Computer Science",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FICT"
+    },
+    {
+        "Abbreviation": "DOA",
+        "Department": "Accountancy",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAM"
+    },
+    {
+        "Abbreviation": "DBPM",
+        "Department": "Building & Property Management",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAM"
+    },
+    {
+        "Abbreviation": "DOE",
+        "Department": "Economics",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAM"
+    },
+    {
+        "Abbreviation": "DIB",
+        "Department": "International Business",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAM"
+    },
+    {
+        "Abbreviation": "DOAD",
+        "Department": "Advertising",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAS"
+    },
+    {
+        "Abbreviation": "DOJ",
+        "Department": "Journalism",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAS"
+    },
+    {
+        "Abbreviation": "DOLL",
+        "Department": "Languages and Linguistics",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAS"
+    },
+    {
+        "Abbreviation": "DPAC",
+        "Department": "  Psychology and Counselling",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAS"
+    },
+    {
+        "Abbreviation": "DPR",
+        "Department": "Public Relations",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FAS"
+    },
+    {
+        "Abbreviation": "DOB",
+        "Department": "Business",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FBF"
+    },
+    {
+        "Abbreviation": "DOCA",
+        "Department": "Commerce & Accountancy",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FBF"
+    },
+    {
+        "Abbreviation": "DE",
+        "Department": "Economics",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FBF"
+    },
+    {
+        "Abbreviation": "DOEN",
+        "Department": "Entrepreneurship",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FBF"
+    },
+    {
+        "Abbreviation": "DOF",
+        "Department": "Finance",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FBF"
+    },
+    {
+        "Abbreviation": "DOM",
+        "Department": "Marketing",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FBF"
+    },
+    {
+        "Abbreviation": "DGS",
+        "Department": "Game Studies",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FCI"
+    },
+    {
+        "Abbreviation": "DGEN",
+        "Department": "General Studies",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FCI"
+    },
+    {
+        "Abbreviation": "DMC",
+        "Department": "Mass Communication",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FCI"
+    },
+    {
+        "Abbreviation": "DM",
+        "Department": "Media",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FCI"
+    },
+    {
+        "Abbreviation": "DML",
+        "Department": "Modern Languages",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FCI"
+    },
+    {
+        "Abbreviation": "DMDA",
+        "Department": "Multimedia Design & Animation",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FCI"
+    },
+    {
+        "Abbreviation": "DCM",
+        "Department": "Construction Management",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FEGT"
+    },
+    {
+        "Abbreviation": "DEE",
+        "Department": "Electronic Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FEGT"
+    },
+    {
+        "Abbreviation": "DEV",
+        "Department": "Environmental Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FEGT"
+    },
+    {
+        "Abbreviation": "DIE",
+        "Department": "Industrial Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FEGT"
+    },
+    {
+        "Abbreviation": "DPCE",
+        "Department": "PetroChemical Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FEGT"
+    },
+    {
+        "Abbreviation": "DCMED",
+        "Department": "Chinese Medicine",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FMHS"
+    },
+    {
+        "Abbreviation": "DMED",
+        "Department": "Medicine",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FMHS"
+    },
+    {
+        "Abbreviation": "DON",
+        "Department": "Nursing",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FMHS"
+    },
+    {
+        "Abbreviation": "DOP",
+        "Department": "Physiology",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FMHS"
+    },
+    {
+        "Abbreviation": "DOPM",
+        "Department": "Population Medicine",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FMHS"
+    },
+    {
+        "Abbreviation": "DPCS",
+        "Department": "Pre-clinical Sciences",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FMHS"
+    },
+    {
+        "Abbreviation": "DAFS",
+        "Department": "Agricultural and Food Science",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FSc"
+    },
+    {
+        "Abbreviation": "DAHS",
+        "Department": "Allied Health Sciences",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FSc"
+    },
+    {
+        "Abbreviation": "DBS",
+        "Department": "Biological Science",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FSc"
+    },
+    {
+        "Abbreviation": "DCHS",
+        "Department": "Chemical Science",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FSc"
+    },
+    {
+        "Abbreviation": "DASD",
+        "Department": "Architecture & Sustainable Design",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DPMS",
+        "Department": "Physical and Mathematical Science",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "FSc"
+    },
+    {
+        "Abbreviation": "DCE",
+        "Department": "Chemical Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DCEN",
+        "Department": "Civil Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DEEE",
+        "Department": "Electrical and Electronic Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DIECS",
+        "Department": "Internet Engineering and Computer Science",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DMAS",
+        "Department": "Mathematical and Actuarial Sciences",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DMME",
+        "Department": "Mechanical and Material Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DMBE",
+        "Department": "Mechatronics and BioMedical Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DOS",
+        "Department": "Surveying",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "LKCFES"
+    },
+    {
+        "Abbreviation": "DMA",
+        "Department": "Management and Accoutancy ",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "CFSKPR"
+    },
+    {
+        "Abbreviation": "DSEKPR",
+        "Department": "Science and Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "CFSKPR"
+    },
+    {
+        "Abbreviation": "DSESGL",
+        "Department": "Science and Engineering",
+        "document-count": "0",
+        "cited-by-count": "0",
+        "citations-count": "0",
+        "h-index": "0",
+        "coauthor-count": "0",
+        "Faculty": "CFSSGL"
+    }
+]

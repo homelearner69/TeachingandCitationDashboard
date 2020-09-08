@@ -1,0 +1,1 @@
+{"author-retrieval-response": [{"@status": "found", "@_fa": "true", "coredata": {"prism:url": "http://api.elsevier.com/content/author/author_id/35185056700", "dc:identifier": "AUTHOR_ID:35185056700", "document-count": "15", "cited-by-count": "26", "citation-count": "33"}, "h-index": "4", "coauthor-count": "20"}]}
