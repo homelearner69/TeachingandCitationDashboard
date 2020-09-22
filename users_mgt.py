@@ -6,7 +6,7 @@ from config import engine
 
 db = SQLAlchemy()
 
-
+#Add_remove_users.ipynb notebook will control this part
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(15), unique=True)
@@ -16,11 +16,11 @@ class User(db.Model):
 
 User_tbl = Table('user', User.metadata)
 
-
+#Create a table before we can add users
 def create_user_table():
     User.metadata.create_all(engine)
 
-
+#Adding users to the database
 def add_user(username, password, email):
     hashed_password = generate_password_hash(password, method='sha256')
 
@@ -31,7 +31,7 @@ def add_user(username, password, email):
     conn.execute(ins)
     conn.close()
 
-
+#Removing users to the database
 def del_user(username):
     delete = User_tbl.delete().where(User_tbl.c.username == username)
 
@@ -39,7 +39,7 @@ def del_user(username):
     conn.execute(delete)
     conn.close()
 
-
+#Show users inside the database
 def show_users():
     select_st = select([User_tbl.c.username, User_tbl.c.email])
 

@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 
 from server import app
 
-# Create app layout
+#Reserved for future work
 layout = html.Div(children=[
     dcc.Location(id='url_logout', refresh=True),
     html.Div(

@@ -26,7 +26,7 @@ app.css.config.serve_locally = True
 app.scripts.config.serve_locally = True
 
 
-# config
+# config the SQLAlchemy database
 server.config.update(
     SECRET_KEY=os.urandom(12),
     SQLALCHEMY_DATABASE_URI=config.get('database', 'con'),

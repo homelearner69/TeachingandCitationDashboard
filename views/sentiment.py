@@ -7,8 +7,10 @@ from datetime import datetime as dt
 from dash.dependencies import Input, Output
 import pandas as pd
 import numpy as np
+#Using wordcloud from outside because dash do not have word cloud
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+#Tools to convert wordcloud into image
 from PIL import Image
 from io import BytesIO
 import base64
@@ -18,6 +20,7 @@ from server import app
 
 warnings.filterwarnings("ignore")
 
+#Read the teaching survey data
 df = pd.read_json("https://raw.githubusercontent.com/homelearner69/Brian/master/studentFeedback.json")
 newdf = df[['StudentFeedback','Polarity']]
 
@@ -55,12 +58,11 @@ wordCloud =  WordCloud(width = 1000, height = 600, random_state=21 , max_font_si
 plt.imshow(wordCloud, interpolation ='bilinear')
 plt.axis('off')
 cloudFigure = plt.axis('off')
-# Create success layout
+# Create sentiment analysis page layout
 layout = html.Div(
     [
         dcc.Location(id='url_dashboard', refresh=True),
         dcc.Store(id="aggregate_data"),
-        # empty Div to trigger javascript file for graph resizing
         html.Div(id="output-clientside"),
         html.Div(
             [
@@ -165,12 +167,13 @@ layout = html.Div(
     style={"display": "flex", "flex-direction": "column"},
 )
 
-
+#Plot the wordcloud
 def plot_wordcloud(data):
     allWords = ' '.join([feedback for feedback in df['StudentFeedback']])
     wc = WordCloud(background_color='black', width=700, height=400, random_state=21 , max_font_size = 119).generate(allWords)
     return wc.to_image()
 
+#convert the wordcloud into string then image form
 @app.callback(Output('image_wc', 'src'), [Input('image_wc', 'id')])
 def make_image(b):
     img = BytesIO()

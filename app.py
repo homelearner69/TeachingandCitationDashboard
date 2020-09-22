@@ -34,10 +34,12 @@ department_options = [
 ]
 
 
+#Department data for the teaching survey data
 departmentData = pd.read_json("https://raw.githubusercontent.com/homelearner69/Brian/master/departmentData.json")
 departmentData = departmentData.rename(columns = {"document-count" : "DocumentCount","citations-count": "TotalCitations", "cited-by-count" : "CitedbyCount", "coauthor-count" : "CoAuthorCount", "surname" : "LastName", "given-name" : "FirstName", "h-index": "HIndex" })
 
 
+#Publication Data for citations monitoring
 df = pd.read_csv("https://raw.githubusercontent.com/homelearner69/Brian/master/mainAuthorDataCleaned.csv")
 dataFrame = df.rename(columns = {"document-count" : "DocumentCount","citations-count": "TotalCitations", "cited-by-count" : "CitedbyCount", "coauthor-count" : "CoAuthorCount", "surname" : "LastName", "given-name" : "FirstName", "h-index": "HIndex" })
 dataFrame= dataFrame.drop(['affiliation-name'],axis=1)
@@ -94,6 +96,7 @@ header = html.Div(
     )
 )
 
+#Main layout
 app.layout = html.Div(
     [
         header,
@@ -107,6 +110,7 @@ app.layout = html.Div(
     ]
 )
 
+#The dashboard layout
 dashboard_layout = html.Div(
     [
         dcc.Location(id='url_dashboard', refresh=True),
@@ -268,6 +272,7 @@ dashboard_layout = html.Div(
     style={"display": "flex", "flex-direction": "column"},
 )
 
+#Callback to control the modal for DCS
 @app.callback(
     Output("modal", "is_open"),
     [Input("open", "n_clicks"), Input("close", "n_clicks")],
@@ -287,7 +292,7 @@ def human_format(num):
     mantissa = str(int(num / (1000 ** magnitude)))
     return mantissa + ["", "K", "M", "G", "T", "P"][magnitude]
 
-
+#Filters applying to the selectors
 def filter_dataframe(dataFrame, faculty, department):
     dff = dataFrame[
         dataFrame.department.isin(department) &
@@ -307,6 +312,7 @@ def filter_depDataFrame(dataFrame, department):
     ]
     return dfff
 
+#Data table beside the filter
 def df_to_table(dff):
     return html.Table(
         [html.Tr([html.Th(col) for col in dff.columns])]
@@ -412,6 +418,7 @@ def display_type(faculty_types):
     return []
 
 
+#this callback controls the department lecturer graph
 @app.callback(
     Output("depNameGraph", "figure"),
     [
@@ -459,6 +466,7 @@ def plot_main_figure(department, category):
     figure = dict(data=data, layout=layout)
     return figure
 
+#this callback controls the faculty lecturer graph
 @app.callback(
     Output("facNameGraph", "figure"),
     [
@@ -494,19 +502,13 @@ def plot_main_figure(faculty,category):
         animate=True,
         automargin=True
     )
-    # layout = dict(
-    #     autosize=True,
-    #     barmode="stack",
-    #     automargin=True,
-    #     paper_bgcolor="white",
-    #     plot_bgcolor="white",
-    # )
 
 
     figure = dict(data=data, layout=layout)
     return figure
 
 #Selectors -> faculty graph
+#this callback controls the faculty average graph
 @app.callback(
     Output("facultyGraph", "figure"),
     [
@@ -547,19 +549,13 @@ def plot_faculty_figure(faculty,category):
         autosize=True,
         automargin=True
     )
-    # layout = dict(
-    #     autosize=True,
-    #     barmode="stack",
-    #     automargin=True,
-    #     paper_bgcolor="white",
-    #     plot_bgcolor="white",
-    # )
 
 
     figure = dict(data=data, layout=layout)
     return figure
 
 #Selectors -> faculty graph
+#this callback controls the department average graph
 @app.callback(
     Output("departmentGraph", "figure"),
     [
@@ -599,7 +595,7 @@ def plot_department_figure(department,category):
     figure = dict(data=data, layout=layout)
     return figure
 
-
+#this callback controls the gender based on the faculty pie chart
 @app.callback(
     Output("pie_graph", "figure"),
     [
@@ -649,6 +645,8 @@ def plot_main_figure(faculty, facselect):
     figure = dict(data=data, layout=layout)
     return figure        
 
+
+#this callback controls the webpage to display which layout 
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
 def display_page(pathname):
@@ -673,7 +671,7 @@ def display_page(pathname):
     else:
         return '404'
 
-
+#this callback checks whether it is logged in
 @app.callback(
     Output('user-name', 'children'),
     [Input('page-content', 'children')])

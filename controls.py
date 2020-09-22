@@ -2,14 +2,6 @@
 
 # In[]:
 # Controls for webapp
-COUNTIES = {
-    "001": "Albany",
-    "003": "Allegany",
-    "005": "Bronx",
-    "007": "Broome",
-    "121": "Wyoming",
-    "123": "Yates",
-}
 
 FACULTY = dict(
     FAS="FAS",

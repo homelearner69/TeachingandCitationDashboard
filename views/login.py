@@ -6,6 +6,7 @@ from server import app, User
 from flask_login import login_user
 from werkzeug.security import check_password_hash
 
+#Login page layout
 layout = html.Div(
     className="limiter",
     children=[
@@ -66,7 +67,7 @@ layout = html.Div(
     ]
 )
 
-
+#The callback to check password validity with the database and return main dashboard
 @app.callback(Output('url_login', 'pathname'),
               [Input('login-button', 'n_clicks')],
               [State('uname-box', 'value'),
@@ -83,6 +84,7 @@ def sucess(n_clicks, input1, input2):
         pass
 
 
+#Error message for wrong password
 @app.callback(Output('output-state', 'children'),
               [Input('login-button', 'n_clicks')],
               [State('uname-box', 'value'),
