@@ -15,6 +15,8 @@ The example comes with the a standard username `test` and password `test1` but y
 `server.py`: the app initialization file<br/>
 `users.db`: sqlite3 database with user information<br/>
 `users_mgt.py`: helper file for the user management process<br/>
+`scopusRetrieval.py`: Code to retrieve publication data from elsevier developer Author Retrieval API<br/>
+`scopusRetrievalViews.py`: Alternative Code to retrieve publication data from elsevier developer Author Retrieval API<br/>
 
 ### Running an app locally
 
